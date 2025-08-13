@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: helvetical;
+}
+
+/**** Nav  ****/
+.nav{
+    Width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.induction_para{
+    width: 100%;
+    height: auto;
+    Font-size: 25px;
+}
