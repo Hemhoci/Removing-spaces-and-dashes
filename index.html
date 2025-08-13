@@ -15,10 +15,18 @@
         <!-- This will be the user input to start the conversion-->
          <p>Please enter your key below</p>
 
-         <form>
+         <form action="#" methed="POST">
             <label for="lkey">Navori License Key:</label>
             <input type="text" id="lkey" placeholder="Please enter key" size="20px" required/>
+            <button type="submit">Submit</button>
+            <br/>
+
+            <!-- The output for the converted key is below-->\
+            <p>The output is below</p>
+            <label for="outputkey">Output:</label>
+            <input type="text" id="outputkey" size="20px" class="output"/><button>Copy</button>
          </form>
+
 
         <script src="JavaScript/JavaScript.js"></script>
     </body>
