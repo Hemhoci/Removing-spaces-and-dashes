@@ -15,18 +15,19 @@
         <!-- This will be the user input to start the conversion-->
          <p class="induction_para">Please enter your key below</p>
 
+         <form action="#" methed="POST">
             <label for="lkey">Navori License Key:</label>
             <input type="text" id="lkey" placeholder="Please enter key" size="20px" required/>
             <button type="submit">Submit</button>
-            <br/>
+            <br/>2
 
             <!-- The output for the converted key is below-->
             <p>The output is below</p>
+            <label for="outputkey">Output:</label>
 
             <!-- The output will be shown here to be copied -->
-            <label for="output">Output:</label>
-            <p id="output"></p><button>Copy</button>
-         
+            <input type="text" id="outputkey" size="20px" class="output"/><button>Copy</button>
+         </form>
 
 
         <script src="JavaScript/JavaScript.js"></script>
