@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
         <link href="CSS/style.css" rel="stylesheet"/>
+        
         <Title>Home | Navori Key conversion tool</Title>
     </head>
     <body>
@@ -15,21 +16,18 @@
         <!-- This will be the user input to start the conversion-->
          <p class="induction_para">Please enter your key below</p>
 
-         <form action="#" methed="POST">
             <label for="lkey">Navori License Key:</label>
-            <input type="text" id="lkey" placeholder="Please enter key" size="20px" required/>
-            <button type="submit">Submit</button>
-            <br/>2
+            <input type="text" id="lkey" class="userinput" placeholder="Please enter key" size="20px"/>
+            <button onclick="convert()">Convert</button>
+            <br/>
+            <br/>
 
             <!-- The output for the converted key is below-->
             <p>The output is below</p>
-            <label for="outputkey">Output:</label>
+            <label for="userout">Output:</label>
 
             <!-- The output will be shown here to be copied -->
-            <input type="text" id="outputkey" size="20px" class="output"/><button>Copy</button>
-         </form>
-
-
-        <script src="JavaScript/JavaScript.js"></script>
+            <p id="userOutput"></p>
+         <script src="JavaScript/JavaScript.js" defer></script>
     </body>
 </html>
