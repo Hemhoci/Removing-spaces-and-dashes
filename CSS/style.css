@@ -14,6 +14,7 @@
     padding-top: 100px;
 }
 
+/*** Section *****/
 .container{
     margin: auto;
     text-align: center;
@@ -44,6 +45,7 @@
     color: white;
 }
 
+/**** output block ***/
 .para2{
     font-size: 20px;
     margin: 10px 0px;
