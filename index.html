@@ -4,30 +4,36 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
         <link href="CSS/style.css" rel="stylesheet"/>
-        
+        <script src="JavaScript/JavaScript.js" defer></script>
         <Title>Home | Navori Key conversion tool</Title>
     </head>
+
     <body>
 
+        <!-- this is the title of the document.... the header-->
         <header class="nav"">
             <h1>Navori Conversion tool</h1>
         </header>
 
-        <!-- This will be the user input to start the conversion-->
+        <!-- This block is to prompt the user for the Navori license -->
+        <section class="container">
          <p class="induction_para">Please enter your key below</p>
 
-            <label for="lkey">Navori License Key:</label>
-            <input type="text" id="lkey" class="userinput" placeholder="Please enter key" size="20px"/>
-            <button onclick="convert()">Convert</button>
+            <!-- Click on this label on the document while put focus on the input box-->
+            <label class="label" for="Ikey">Navori License Key:</label><br>
+
+            <!-- This input is for the input box for the user to enter the Navori license -->
+            <input type="text" id="Ikey" class="userinput" placeholder="Please enter key" size="20px"/>
+            <button class="button" onclick="convert()">Convert</button> <!-- this button is to iniitiate the Javascript function-->
+
             <br/>
             <br/>
 
-            <!-- The output for the converted key is below-->
-            <p>The output is below</p>
-            <label for="userout">Output:</label>
-
-            <!-- The output will be shown here to be copied -->
+            <!-- This code block is output statment and coverted output -->
+            <p class="para2">The output is below</p>
+            <label class="output"for="userout">Output:</label>
             <p id="userOutput"></p>
-         <script src="JavaScript/JavaScript.js" defer></script>
+         </section>
+
     </body>
 </html>
