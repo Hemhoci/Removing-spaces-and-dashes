@@ -11,6 +11,10 @@ function removeCharacters(userin){    //this fuction will remove spaces and dash
 
 function convert(){                   //This fuction will get the user input value
   let userinput = document.getElementById("Ikey").value;    //.value is necessary to get the object value
+
+  if(userinput == "") {
+    alert("There is nothing to convert"); //The if statement check checks to see if the user has added anything
+  }
   removeCharacters(userinput);        //This fuction is instanciated in the block above
                                       //userinput is passed to removeCharacters fuction 
   
